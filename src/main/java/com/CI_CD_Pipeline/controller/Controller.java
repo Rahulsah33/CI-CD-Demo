@@ -11,6 +11,6 @@ public class Controller {
 
     @GetMapping
     public ResponseEntity<String> getMessage() {
-        return ResponseEntity.ok("Learn CI/CD Pipeline with Spring Boot");
+        return ResponseEntity.ok("Hello, World! This is a CI/CD pipeline test.");
     }
 }
